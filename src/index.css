@@ -1,0 +1,7 @@
+@import "tailwindcss";
+/* If your project already has the Tailwind lines above, keep yours and only copy what's below. */
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fbf5e6; color: #3b2a1e; font-family: 'Mukta', system-ui, sans-serif; overflow-x: hidden; }
+.font-head { font-family: 'Noto Serif Devanagari', 'Cormorant Garamond', serif; }
+.font-latin { font-family: 'Cormorant Garamond', serif; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
